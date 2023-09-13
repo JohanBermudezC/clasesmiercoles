@@ -1,0 +1,44 @@
+/*Importacion de tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
+
+/* Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif; 
+}   
+
+/* Selector por etiqueta */
+span{
+    color:rgb(196, 51, 51);
+}
+/* Selector por ID*/
+#option_one, #option_three{
+    font-weight: 900;
+    background-color: goldenrod;
+    margin-left: 20px;
+}
+/* Selector por clase */
+.option_group{
+    background-color: #000;
+}
+.other_option{
+    font-size: 20px;
+}
+/* Selector por atributo */
+[disabled]{
+    background-color: red;   
+}
+h1 {
+    color: red;
+    background-color: antiquewhite;   
+}
+
+a{
+    text-decoration: none;
+    color: #0000ff;
+}
+
+body{
+    background-color: bisque;
+}

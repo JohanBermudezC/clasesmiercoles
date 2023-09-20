@@ -15,12 +15,12 @@ span{
 /* Selector por ID*/
 #option_one, #option_three{
     font-weight: 900;
-    background-color: goldenrod;
+    background-color: rgb(212, 200, 169);
     margin-left: 20px;
 }
 /* Selector por clase */
 .option_group{
-    background-color: #000;
+    background-color: #dbbaba;
 }
 .other_option{
     font-size: 20px;
@@ -42,3 +42,55 @@ a{
 body{
     background-color: bisque;
 }
+/* Selector por ID*/
+#title_box{
+    color: #0000ff;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 10px 20px 15px 25px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    word-spacing: 15px; /*distanciamiento entre palabra */
+    letter-spacing: 8px; /*distanciamiento entre letras */
+    font-size: 50px;   
+    box-shadow: 0px 0px 10px 2px;
+    -webkit-box-shadow: -1px 1px 14px 3px rgba(99,94,219,1);
+    -moz-box-shadow: -1px 1px 14px 3px rgba(99,94,219,1);
+    box-shadow: -1px 1px 14px 3px rgba(99,94,219,1);
+    
+}
+#box_father{
+    background-color: #000;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/06/24/16245558914634.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* #box_model{
+    background-color: orange;
+    width: 50%;
+    height: 50%;
+} */
+
+/* aplicacion de media query */
+@media(min-width: 800px) and (max-width: 1200px){
+    body{
+        background-color: #dd6743;
+    }
+    #title_box{
+        text-align: left;
+    }
+}
+@media(max-width: 799px) {
+    body{
+        background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/06/24/16245558914634.jpg);       
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
